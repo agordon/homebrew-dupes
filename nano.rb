@@ -11,6 +11,7 @@ class Nano < Formula
   depends_on "pkg-config" => :build
   depends_on "gettext"
   depends_on "homebrew/dupes/ncurses"
+  depends_on "glib"
 
   def install
     system "./configure", "--disable-debug",
